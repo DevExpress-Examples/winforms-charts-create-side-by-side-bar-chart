@@ -10,11 +10,11 @@ This example shows how to create a [Side-by-Side Bar](https://docs.devexpress.co
 
 ![Resulting chart](Images/resulting-chart.png)
 
-In this example, you add [Series](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series) objects to the [ChartControl.Series](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Series) collection and then populate the [Series.Points](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series.Points) collection with points for each series.
+In this example, you add [`Series`](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series) objects to the [`ChartControl.Series`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Series) collection and then populate the [`Series.Points`](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.Series.Points) collection with points for each series.
 
-The Chart Control uses the [XY-Diagram](https://docs.devexpress.com/WindowsForms/5908/controls-and-libraries/chart-control/diagram/xy-diagram?p=netframework) to display bar series. Cast the [ChartControl.Diagram](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Diagram?p=netframework) property to the [XYDiagram](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.XYDiagram?p=netframework) type to access diagram settings. The Chart Control determines the diagram type based on the series that is added first. We recommend that you access the diagram to configure its settings after at least one series is added to the chart. 
+The Chart Control uses the [XY-Diagram](https://docs.devexpress.com/WindowsForms/5908/controls-and-libraries/chart-control/diagram/xy-diagram?p=netframework) to display bar series. Cast the [`ChartControl.Diagram`](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Diagram?p=netframework) property to the [`XYDiagram`](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.XYDiagram?p=netframework) type to access diagram settings. The Chart Control determines the diagram type based on the series that is added first. We recommend that you access the diagram to configure its settings after at least one series is added to the chart. 
 
-Note that you can cast the series' [View](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SeriesBase.View?p=netframework) property to the [SideBySideBarSeriesView](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SideBySideBarSeriesView) type to access bar series appearance settings.
+Note that you can cast the series' [`View`](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SeriesBase.View?p=netframework) property to the [`SideBySideBarSeriesView`](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SideBySideBarSeriesView) type to access bar series appearance settings.
 
 ## Files to Look At
 
