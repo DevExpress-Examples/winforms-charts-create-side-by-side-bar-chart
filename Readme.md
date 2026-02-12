@@ -37,7 +37,7 @@ Note that you can cast the series' [`View`](https://docs.devexpress.com/CoreLibr
 * [How to create a Stacked Bar chart](https://github.com/DevExpress-Examples/winforms-charts-create-stacked-bar-chart)
 * [How to Create a Side-by-Side Stacked Bar Chart](https://github.com/DevExpress-Examples/winforms-charts-create-a-side-by-side-stacked-bars)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-charts-create-side-by-side-bar-chart&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-charts-create-side-by-side-bar-chart&~~~was_helpful=no)
 
